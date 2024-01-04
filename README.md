@@ -21,3 +21,16 @@
 
 ```bash
 pip install tensorflow tensorflow-hub matplotlib numpy
+
+## 使用说明
+
+### HubModel 使用
+- 创建 `HubModel` 实例。
+- 使用 `style_conver` 方法进行风格迁移。此方法需要内容图像路径、风格图像路径和结果保存路径。
+
+示例代码：
+
+```python
+hubModel = HubModel()
+hubModel.style_conver('result_path', 'content_image_path', 'style_image_path')
+
