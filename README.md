@@ -65,8 +65,6 @@ your-project/
 ├── GUI.exe        # 程序的图形用户界面启动文件
 ```
 
-然后启动`GUI.exe`即可。
-
 **用户界面**
 
 ![用户界面](./assets/GUI_frame.png)
