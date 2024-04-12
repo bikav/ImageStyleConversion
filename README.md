@@ -63,7 +63,7 @@ your-project/
 
 用户界面如下所示：
 
-![用户界面](./assets/GUI frame.png)
+![用户界面](./assets/GUI_frame.png)
 
 ## 文件结构
 
