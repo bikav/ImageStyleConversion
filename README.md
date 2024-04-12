@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 ## 使用说明
 
-### 1. HubModel 使用
+### 1. Hub Model
 - 创建 `HubModel` 实例。
 - 使用 `style_conver` 方法进行风格迁移。此方法需要内容图像路径、风格图像路径和结果保存路径。
 
@@ -36,7 +36,7 @@ hubModel = HubModel()
 hubModel.style_conver('result_path', 'content_image_path', 'style_image_path')
 ```
 
-### 2. PixSynthModel 使用
+### 2. Pix Synth Model
 
 - 创建 `PixSynthModel` 实例。
 - 使用 `style_conver` 方法进行风格迁移。此方法需要内容图像路径、风格图像路径和结果保存路径。
@@ -47,6 +47,23 @@ hubModel.style_conver('result_path', 'content_image_path', 'style_image_path')
 pixsynthModel = PixSynthModel()
 pixsynthModel.style_conver('result_path', 'content_image_path', 'style_image_path')
 ```
+
+### 3. Graphical User Interface
+
+确保你的文件结构如下所示：
+
+```bash
+your-project/
+├── input_images/  # 用于存放所有输入图片
+├── results/       # 存放程序处理后的结果输出
+├── GUI.exe        # 程序的图形用户界面启动文件
+```
+
+然后启动`GUI.exe`即可。
+
+用户界面如下所示：
+
+
 
 ## 文件结构
 
