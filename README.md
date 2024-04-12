@@ -1,11 +1,11 @@
-# 风格转换项目
+# Image Style Conversion
 
 这个项目实现了图像的风格转换功能，它包括两个主要部分：使用 TensorFlow Hub 的预训练模型进行风格迁移和使用 VGG19 模型的自定义风格迁移实现。
 
 ## 功能
 
 - **HubModel**：使用 TensorFlow Hub 上的预训练模型进行风格迁移。
-- **SelfModel**：使用 VGG19 模型的自定义实现进行风格迁移。
+- **PixSynthModel**：使用 VGG19 模型构建的自定义实现进行风格迁移。
 
 ## 环境需求
 
@@ -36,16 +36,16 @@ hubModel = HubModel()
 hubModel.style_conver('result_path', 'content_image_path', 'style_image_path')
 ```
 
-### 2. SelfModel 使用
+### 2. PixSynthModel 使用
 
-- 创建 `SelfModel` 实例。
+- 创建 `PixSynthModel` 实例。
 - 使用 `style_conver` 方法进行风格迁移。此方法需要内容图像路径、风格图像路径和结果保存路径。
 
 示例代码：
 
 ```python
-selfModel = SelfModel()
-selfModel.style_conver('result_path', 'content_image_path', 'style_image_path')
+pixsynthModel = PixSynthModel()
+pixsynthModel.style_conver('result_path', 'content_image_path', 'style_image_path')
 ```
 
 ## 文件结构
