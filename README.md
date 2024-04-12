@@ -20,7 +20,7 @@
 确保您已经安装了上述所需库。如果没有安装，可以通过以下命令安装：
 
 ```bash
-pip install tensorflow tensorflow-hub matplotlib numpy
+pip install -r requirements.txt
 ```
 
 ## 使用说明
@@ -54,3 +54,6 @@ pixsynthModel.style_conver('result_path', 'content_image_path', 'style_image_pat
 
 - `image/`：存放原始图像和风格图像的文件夹。
 - `result/`：存放风格转换结果的文件夹。
+- `hub_model.py`：使用 TensorFlow Hub 的预训练模型进行图像风格转换。
+- `hub_model_download.py`：下载 TensorFlow Hub 的预训练模型。
+- `pixsynth_model.py`：使用 Pix Synth Model 进行图像风格转换。
