@@ -50,7 +50,7 @@ pixsynthModel.style_conver('result_path', 'content_image_path', 'style_image_pat
 
 ### 3. Graphical User Interface
 
-确保你的文件结构如下所示：
+**确保你的文件结构如下所示：
 
 ```bash
 your-project/
@@ -61,7 +61,7 @@ your-project/
 
 然后启动`GUI.exe`即可。
 
-用户界面如下所示：
+**用户界面如下所示：
 
 ![用户界面](./assets/GUI_frame.png)
 
